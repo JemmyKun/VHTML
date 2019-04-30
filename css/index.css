@@ -1,6 +1,6 @@
 .head {
-	height: 80px;
-	line-height: 80px;
+	height: 70px;
+	line-height: 70px;
 	font-size: 16px;
 	box-sizing: border-box;
 }
@@ -14,8 +14,8 @@
 }
 
 .logo-img {
-	width: 100px;
-	height: 60px;
+	width: 80px;
+	height: 50px;
 }
 
 .head-menu {
@@ -46,7 +46,7 @@
 .head-menu .drop-menu {
 	position: absolute;
 	z-index: 999;
-	top: 65px;
+	top: 60px;
 	left: 40px;
 	background: #fff;
 	text-align: left;
@@ -255,6 +255,31 @@
 	font-size: 15px;
 	line-height: 36px;
 	color: #333;
+}
+
+.rights-item-container {
+	display: flex;
+	display: -ms-flex;
+	justify-content: -ms-center;
+	justify-content: center;
+	height: 1000px;
+	width: 100%;
+	padding-top: 320px;
+	background: url(../images/rights_bg.png) center center no-repeat;
+}
+
+.rights-item-img {
+	height: 511px;
+	width: 305px;
+	margin-right: 100px;
+	transition: all .2s linear;
+}
+
+.rights-item-img:hover {
+	-webkit-box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
+	box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
+	-webkit-transform: translate3d(0, -2px, 0);
+	transform: translate3d(0, -2px, 0);
 }
 
 .rights-container {
